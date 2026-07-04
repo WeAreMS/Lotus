@@ -13,15 +13,17 @@ import shutil
 import subprocess
 import threading
 import itertools
+import requests
 from pathlib import Path
 from datetime import datetime
 
 VERSION = "5.0"
 
 # ---------------------------------------------------------------------------
-# File paths
+# File paths & URLs
 # ---------------------------------------------------------------------------
 BASE_DIR = Path(__file__).resolve().parent
+TOOLS_URL = "https://raw.githubusercontent.com/WeAreMS/Lotus/refs/heads/main/tools_data_v2.json"
 TOOLS_FILE = BASE_DIR / 'tools_data_v2.json'
 FAVORITES_FILE = BASE_DIR / '.lotus_favorites.json'
 LOG_FILE = BASE_DIR / '.lotus_log.txt'
@@ -301,10 +303,22 @@ def normalize_tool(raw):
 
 
 def load_tools():
-    data = load_json_file(TOOLS_FILE, default=None)
+    # Try to fetch from remote URL first
+    try:
+        response = requests.get(TOOLS_URL, timeout=10)
+        if response.status_code == 200:
+            data = response.json()
+            # Cache it locally
+            save_json_file(TOOLS_FILE, data)
+        else:
+            log(f"Remote tools fetch failed (Status: {response.status_code}), using local cache.")
+            data = load_json_file(TOOLS_FILE, default=None)
+    except Exception as e:
+        log(f"Remote tools fetch error: {e}, using local cache.")
+        data = load_json_file(TOOLS_FILE, default=None)
+
     if data is None:
-        print(f"{DANGER}[!] Data file not found or corrupted: {TOOLS_FILE.name}{RESET}")
-        print(f"{WARN}[*] Please make sure '{TOOLS_FILE.name}' file is in the Lotus directory.{RESET}")
+        print(f"{DANGER}[!] Data could not be loaded from remote or local cache.{RESET}")
         sys.exit(1)
 
     cleaned = {}
