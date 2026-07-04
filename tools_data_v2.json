@@ -1,0 +1,617 @@
+{
+  "Analystick": [
+    {
+      "name": "rang3r",
+      "repo": "https://github.com/floriankunushevci/rang3r",
+      "install": [],
+      "run": "cd rang3r && python3 rang3r.py"
+    },
+    {
+      "name": "TM-scanner",
+      "repo": "https://github.com/TechnicalMujeeb/TM-scanner.git",
+      "install": [
+        "chmod +x * sh install.sh"
+      ],
+      "run": "cd TM-scanner && python3 TM-scanner.py"
+    },
+    {
+      "name": "AstraNmap",
+      "repo": "https://github.com/Gameye98/AstraNmap",
+      "install": [],
+      "run": "cd AstraNmap && python3 AstraNmap.py"
+    }
+  ],
+  "Android Saldırıları": [
+    {
+      "name": "pyshell",
+      "repo": "https://github.com/knassar702/pyshell",
+      "install": [],
+      "run": "cd pyshell && python3 pyshell.py"
+    },
+    {
+      "name": "WishFish",
+      "repo": "https://github.com/kinghacker0/WishFish",
+      "install": [],
+      "run": "cd WishFish && python3 WishFish.py"
+    },
+    {
+      "name": "lockphish",
+      "repo": "https://github.com/JasonJerry/lockphish",
+      "install": [],
+      "run": "cd lockphish && python3 lockphish.py"
+    },
+    {
+      "name": "HatCloud",
+      "repo": "https://github.com/HatBashBR/HatCloud",
+      "install": [],
+      "run": "cd HatCloud && python3 HatCloud.py"
+    }
+  ],
+  "Kamera Sızma": [
+    {
+      "name": "Cam-Hackers",
+      "repo": "https://github.com/AngelSecurityTeam/Cam-Hackers",
+      "install": [
+        "pip3 install requests",
+        "pip3 install colorama"
+      ],
+      "run": "cd Cam-Hackers && python3 Cam-Hackers.py"
+    },
+    {
+      "name": "grabcam",
+      "repo": "https://github.com/noob-hackers/grabcam",
+      "install": [],
+      "run": "cd grabcam && python3 grabcam.py"
+    },
+    {
+      "name": "CamHack",
+      "repo": "https://github.com/Devil-Tigers/CamHack.git",
+      "install": [
+        "chmod +x *"
+      ],
+      "run": "cd CamHack && python3 CamHack.py"
+    }
+  ],
+  "Dark Web Arama": [
+    {
+      "name": "darkdump",
+      "repo": "https://github.com/josh0xA/darkdump",
+      "install": [
+        "python3 -m pip install -r requirements.txt"
+      ],
+      "run": "cd darkdump && python3 darkdump.py"
+    }
+  ],
+  "Bilgi Toplama": [
+    {
+      "name": "EvilURL",
+      "repo": "https://github.com/UndeadSec/EvilURL.git",
+      "install": [],
+      "run": "cd EvilURL && python3 EvilURL.py"
+    },
+    {
+      "name": "OSIF",
+      "repo": "https://github.com/ciku370/OSIF",
+      "install": [
+        "pip2 install -r requirements.txt"
+      ],
+      "run": "cd OSIF && python3 OSIF.py"
+    },
+    {
+      "name": "Easymap",
+      "repo": "https://github.com/Cvar1984/Easymap",
+      "install": [],
+      "run": "cd Easymap && python3 Easymap.py"
+    },
+    {
+      "name": "AstraNmap",
+      "repo": "https://github.com/Gameye98/AstraNmap",
+      "install": [],
+      "run": "cd AstraNmap && python3 AstraNmap.py"
+    },
+    {
+      "name": "weeman",
+      "repo": "https://github.com/evait-security/weeman",
+      "install": [],
+      "run": "cd weeman && python3 weeman.py"
+    },
+    {
+      "name": "MaxSubdoFinder",
+      "repo": "https://github.com/exlinee/MaxSubdoFinder",
+      "install": [],
+      "run": "cd MaxSubdoFinder && python3 MaxSubdoFinder.py"
+    },
+    {
+      "name": "trape",
+      "repo": "https://github.com/jofpin/trape.git",
+      "install": [
+        "python2 -m pip install -r requirements.txt"
+      ],
+      "run": "cd trape && python3 trape.py"
+    },
+    {
+      "name": "RED_HAWK",
+      "repo": "https://github.com/Tuhinshubhra/RED_HAWK",
+      "install": [],
+      "run": "cd RED_HAWK && python3 RED_HAWK.py"
+    },
+    {
+      "name": "LittleBrother",
+      "repo": "https://github.com/Lulz3xploit/LittleBrother",
+      "install": [
+        "python3 -m pip install -r requirements.txt"
+      ],
+      "run": "cd LittleBrother && python3 LittleBrother.py"
+    },
+    {
+      "name": "seeker",
+      "repo": "https://github.com/thewhiteh4t/seeker.git",
+      "install": [
+        "chmod +x install.sh",
+        "./install.sh",
+        "chmod +x seeker.py"
+      ],
+      "run": "cd seeker && python3 seeker.py"
+    },
+    {
+      "name": "ReconDog",
+      "repo": "https://github.com/s0md3v/ReconDog",
+      "install": [
+        "chmod +x dog"
+      ],
+      "run": "cd ReconDog && python3 ReconDog.py"
+    },
+    {
+      "name": "D-Tech",
+      "repo": "https://github.com/bibortone/D-Tech",
+      "install": [
+        "pip install iphack",
+        "pip3 install iphack"
+      ],
+      "run": "cd D-Tech && python3 D-Tech.py"
+    },
+    {
+      "name": "nikto",
+      "repo": "https://github.com/sullo/nikto",
+      "install": [],
+      "run": "cd nikto && python3 nikto.py"
+    },
+    {
+      "name": "MailFinder",
+      "repo": "https://github.com/mishakorzik/MailFinder",
+      "install": [
+        "pip3 install whois",
+        "pip3 install flask_socketio",
+        "pip3 install flask_cors"
+      ],
+      "run": "cd MailFinder && python3 MailFinder.py"
+    }
+  ],
+  "E-posta Araçları": [
+    {
+      "name": "hack-gmail",
+      "repo": "https://github.com/d4az/hack-gmail.git",
+      "install": [],
+      "run": "cd hack-gmail && python3 hack-gmail.py"
+    },
+    {
+      "name": "KnockMail",
+      "repo": "https://github.com/4w4k3/KnockMail.git",
+      "install": [
+        "pip install -r requeriments.txt",
+        "pip3 install html2text"
+      ],
+      "run": "cd KnockMail && python3 KnockMail.py"
+    },
+    {
+      "name": "pwnedOrNot",
+      "repo": "https://github.com/thewhiteh4t/pwnedOrNot.git",
+      "install": [],
+      "run": "cd pwnedOrNot && python3 pwnedOrNot.py"
+    },
+    {
+      "name": "emailpyspam",
+      "repo": "https://github.com/Curioo/emailpyspam.git",
+      "install": [],
+      "run": "cd emailpyspam && python3 emailpyspam.py"
+    },
+    {
+      "name": "Gmail-Hack",
+      "repo": "https://github.com/mishakorzik/Gmail-Hack",
+      "install": [],
+      "run": "cd Gmail-Hack && python3 Gmail-Hack.py"
+    },
+    {
+      "name": "Email-Spammer",
+      "repo": "https://github.com/mishakorzik/Email-Spammer",
+      "install": [],
+      "run": "cd Email-Spammer && python3 Email-Spammer.py"
+    }
+  ],
+  "Other": [
+    {
+      "name": "Intersect-2.5",
+      "repo": "https://github.com/deadbits/Intersect-2.5",
+      "install": [],
+      "run": "cd Intersect-2.5 && python3 Intersect-2.5.py"
+    }
+  ],
+  "Şifre Saldırıları": [
+    {
+      "name": "hasher",
+      "repo": "https://github.com/ciku370/hasher",
+      "install": [],
+      "run": "cd hasher && python3 hasher.py"
+    },
+    {
+      "name": "hasherdoid",
+      "repo": "https://github.com/thamahaxor/hasherdoid",
+      "install": [
+        "chmod +x hasherdotid.py"
+      ],
+      "run": "cd hasherdoid && python3 hasherdoid.py"
+    },
+    {
+      "name": "hash-generator",
+      "repo": "https://github.com/ciku370/hash-generator",
+      "install": [],
+      "run": "cd hash-generator && python3 hash-generator.py"
+    },
+    {
+      "name": "Hash-Buster",
+      "repo": "https://github.com/s0md3v/Hash-Buster",
+      "install": [],
+      "run": "cd Hash-Buster && python3 Hash-Buster.py"
+    }
+  ],
+  "Phishing (Oltalama)": [
+    {
+      "name": "zphisher",
+      "repo": "https://github.com/htr-tech/zphisher.git",
+      "install": [],
+      "run": "cd zphisher && bash zphisher.sh"
+    },
+    {
+      "name": "ShellPhish",
+      "repo": "https://github.com/AbirHasan2005/ShellPhish",
+      "install": [
+        "chmod +x *"
+      ],
+      "run": "cd ShellPhish && python3 ShellPhish.py"
+    },
+    {
+      "name": "saycheese",
+      "repo": "https://github.com/hangetzzu/saycheese",
+      "install": [],
+      "run": "cd saycheese && python3 saycheese.py"
+    },
+    {
+      "name": "BlackPhish",
+      "repo": "https://github.com/iinc0gnit0/BlackPhish",
+      "install": [
+        "./install.sh"
+      ],
+      "run": "cd BlackPhish && python3 BlackPhish.py"
+    },
+    {
+      "name": "Mask-Phish.Termux",
+      "repo": "https://github.com/mishakorzik/Mask-Phish.Termux",
+      "install": [],
+      "run": "cd Mask-Phish.Termux && python3 Mask-Phish.Termux.py"
+    },
+    {
+      "name": "seeker",
+      "repo": "https://github.com/thewhiteh4t/seeker.git",
+      "install": [],
+      "run": "cd seeker && python3 seeker.py"
+    },
+    {
+      "name": "AIOPhish",
+      "repo": "https://github.com/DeepSociety/AIOPhish",
+      "install": [],
+      "run": "cd AIOPhish && python3 AIOPhish.py"
+    },
+    {
+      "name": "I-See-You",
+      "repo": "https://github.com/Viralmaniar/I-See-You.git",
+      "install": [
+        "chmod u+x ISeeYou.sh"
+      ],
+      "run": "cd I-See-You && python3 I-See-You.py"
+    },
+    {
+      "name": "blackeye",
+      "repo": "https://github.com/An0nUD4Y/blackeye",
+      "install": [
+        "pip3 install pyphisher"
+      ],
+      "run": "cd blackeye && python3 blackeye.py"
+    }
+  ],
+  "Router & Ağ": [
+    {
+      "name": "routersploit",
+      "repo": "https://www.github.com/threat9/routersploit",
+      "install": [
+        "python3 -m pip install -r requirements.txt"
+      ],
+      "run": "cd routersploit && python3 routersploit.py"
+    },
+    {
+      "name": "commix",
+      "repo": "https://github.com/commixproject/commix.git",
+      "install": [],
+      "run": "cd commix && python3 commix.py"
+    },
+    {
+      "name": "txtool",
+      "repo": "https://github.com/kuburan/txtool.git",
+      "install": [
+        "./install.py"
+      ],
+      "run": "cd txtool && python3 txtool.py"
+    },
+    {
+      "name": "XAttacker",
+      "repo": "https://github.com/Moham3dRiahi/XAttacker.git",
+      "install": [
+        "chmod +x termux-install.sh"
+      ],
+      "run": "cd XAttacker && python3 XAttacker.py"
+    },
+    {
+      "name": "fim",
+      "repo": "https://github.com/karjok/fim",
+      "install": [
+        "pip install -r requirements.txt",
+        "pip3 install future"
+      ],
+      "run": "cd fim && python3 fim.py"
+    }
+  ],
+  "SQL Enjeksiyonu": [
+    {
+      "name": "Debinject",
+      "repo": "https://github.com/UndeadSec/Debinject.git",
+      "install": [],
+      "run": "cd Debinject && python3 Debinject.py"
+    },
+    {
+      "name": "Vitus2.0",
+      "repo": "https://github.com/Terror696/Vitus2.0",
+      "install": [],
+      "run": "cd Vitus2.0 && python3 Vitus2.0.py"
+    },
+    {
+      "name": "Infect",
+      "repo": "https://github.com/mishakorzik/Infect",
+      "install": [],
+      "run": "cd Infect && python3 Infect.py"
+    }
+  ],
+  "Sosyal Medya": [
+    {
+      "name": "Facebook-BruteForce",
+      "repo": "https://github.com/IAmBlackHacker/Facebook-BruteForce",
+      "install": [
+        "python3 -m pip install requests bs4",
+        "python3 -m pip install mechanize"
+      ],
+      "run": "cd Facebook-BruteForce && python3 Facebook-BruteForce.py"
+    },
+    {
+      "name": "sherlock",
+      "repo": "https://github.com/sherlock-project/sherlock.git",
+      "install": [
+        "python3 -m pip install -r requirements.txt"
+      ],
+      "run": "cd sherlock && python3 sherlock.py"
+    },
+    {
+      "name": "UserFinder",
+      "repo": "https://github.com/mishakorzik/UserFinder",
+      "install": [],
+      "run": "cd UserFinder && python3 UserFinder.py"
+    }
+  ],
+  "Spam Araçları": [
+    {
+      "name": "SMS-Bomber-300-Free",
+      "repo": "https://github.com/3UMOBKA/SMS-Bomber-300-Free",
+      "install": [],
+      "run": "cd SMS-Bomber-300-Free && python3 SMS-Bomber-300-Free.py"
+    },
+    {
+      "name": "AresBomb",
+      "repo": "https://github.com/MaksPV/AresBomb",
+      "install": [],
+      "run": "cd AresBomb && python3 AresBomb.py"
+    },
+    {
+      "name": "Anon-SMS",
+      "repo": "https://github.com/HACK3RY2J/Anon-SMS.git",
+      "install": [],
+      "run": "cd Anon-SMS && python3 Anon-SMS.py"
+    },
+    {
+      "name": "spymer",
+      "repo": "https://github.com/FSystem88/spymer",
+      "install": [
+        "pip install requests colorama proxyscrape",
+        "chmod -R 777 ~/spymer",
+        "chmod 777 /bin/spymer"
+      ],
+      "run": "cd spymer && python3 spymer.py"
+    },
+    {
+      "name": "TBomb",
+      "repo": "https://github.com/TheSpeedX/TBomb.git",
+      "install": [],
+      "run": "cd TBomb && python3 TBomb.py"
+    }
+  ],
+  "TermuxS": [
+    {
+      "name": "termux-style",
+      "repo": "https://github.com/adi1090x/termux-style",
+      "install": [
+        "./install"
+      ],
+      "run": "cd termux-style && python3 termux-style.py"
+    },
+    {
+      "name": "TermuxBackupTools",
+      "repo": "https://github.com/laraib07/TermuxBackupTools",
+      "install": [],
+      "run": "cd TermuxBackupTools && python3 TermuxBackupTools.py"
+    },
+    {
+      "name": "qiq",
+      "repo": "https://github.com/mishakorzik/qiq",
+      "install": [],
+      "run": "cd qiq && python3 qiq.py"
+    }
+  ],
+  "Web Saldırıları": [
+    {
+      "name": "AdminHack",
+      "repo": "https://github.com/mishakorzik/AdminHack",
+      "install": [
+        "pip install parse",
+        "pip2 install parse",
+        "pip3 install parse"
+      ],
+      "run": "cd AdminHack && python3 AdminHack.py"
+    },
+    {
+      "name": "takeover",
+      "repo": "https://github.com/m4ll0k/takeover.git",
+      "install": [],
+      "run": "cd takeover && python3 takeover.py"
+    },
+    {
+      "name": "Blazy",
+      "repo": "https://github.com/UltimateHackers/Blazy",
+      "install": [
+        "pip install -r requirements.txt"
+      ],
+      "run": "cd Blazy && python3 Blazy.py"
+    },
+    {
+      "name": "--depth",
+      "repo": "--depth",
+      "install": [],
+      "run": "cd --depth && python3 --depth.py"
+    },
+    {
+      "name": "websploit",
+      "repo": "https://github.com/websploit/websploit.git",
+      "install": [
+        "pip2 install scapy",
+        "pip3 install scary"
+      ],
+      "run": "cd websploit && python3 websploit.py"
+    },
+    {
+      "name": "SH33LL",
+      "repo": "https://github.com/LOoLzeC/SH33LL",
+      "install": [],
+      "run": "cd SH33LL && python3 SH33LL.py"
+    },
+    {
+      "name": "sqlmate",
+      "repo": "https://github.com/s0md3v/sqlmate",
+      "install": [
+        "pip install -r requirements.txt"
+      ],
+      "run": "cd sqlmate && python3 sqlmate.py"
+    },
+    {
+      "name": "py-ddoser",
+      "repo": "https://github.com/mishakorzik/py-ddoser",
+      "install": [
+        "python3 -m pip install fake_headers",
+        "pip3 install colorama",
+        "python3 -m pip install click",
+        "pip install fake_headers",
+        "pip install colorama",
+        "pip install click"
+      ],
+      "run": "cd py-ddoser && python3 py-ddoser.py"
+    },
+    {
+      "name": "Ultra-DDos",
+      "repo": "https://github.com/mishakorzik/Ultra-DDos",
+      "install": [],
+      "run": "cd Ultra-DDos && python3 Ultra-DDos.py"
+    },
+    {
+      "name": "WhatWeb",
+      "repo": "https://github.com/urbanadventurer/WhatWeb",
+      "install": [],
+      "run": "cd WhatWeb && python3 WhatWeb.py"
+    }
+  ],
+  "Wordlist Oluşturucu": [
+    {
+      "name": "wlcreator",
+      "repo": "https://github.com/Keshav2136/wlcreator",
+      "install": [],
+      "run": "cd wlcreator && python3 wlcreator.py"
+    },
+    {
+      "name": "GoblinWordGenerator",
+      "repo": "https://github.com/UndeadSec/GoblinWordGenerator.git",
+      "install": [],
+      "run": "cd GoblinWordGenerator && python3 GoblinWordGenerator.py"
+    },
+    {
+      "name": "SMWYG-Show-Me-What-You-Got",
+      "repo": "https://github.com/Viralmaniar/SMWYG-Show-Me-What-You-Got.git",
+      "install": [
+        "pip2 install -r requirements.txt"
+      ],
+      "run": "cd SMWYG-Show-Me-What-You-Got && python3 SMWYG-Show-Me-What-You-Got.py"
+    }
+  ],
+  "XSS Saldırıları": [
+    {
+      "name": "XSSCon",
+      "repo": "https://github.com/menkrep1337/XSSCon",
+      "install": [
+        "chmod 755 -R XSSCon"
+      ],
+      "run": "cd XSSCon && python3 XSSCon.py"
+    },
+    {
+      "name": "XanXSS",
+      "repo": "https://github.com/Ekultek/XanXSS",
+      "install": [],
+      "run": "cd XanXSS && python3 XanXSS.py"
+    },
+    {
+      "name": "XSStrike",
+      "repo": "https://github.com/s0md3v/XSStrike",
+      "install": [],
+      "run": "cd XSStrike && python3 XSStrike.py"
+    }
+  ],
+  "Sistem": [
+    {
+      "name": "Metasploit",
+      "repo": "",
+      "install": [
+        "pkg install metasploit -y"
+      ],
+      "run": "msfconsole"
+    },
+    {
+      "name": "Ngrok",
+      "repo": "",
+      "install": [
+        "pkg install wget -y"
+      ],
+      "run": "ngrok http 80"
+    }
+  ]
+}
