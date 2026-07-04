@@ -1,56 +1,53 @@
-
 #!/bin/bash
 
-# Renk tanımlamaları
-RED=\033[91m
-GREEN=\033[92m
-YELLOW=\033[93m
-CYAN=\033[96m
-RESET=\033[0m
-BOLD=\033[1m
+# Colors
+RED="\033[91m"
+GREEN="\033[92m"
+YELLOW="\033[93m"
+CYAN="\033[96m"
+RESET="\033[0m"
+BOLD="\033[1m"
+
+REPO_URL="https://github.com/WeAreMS/Lotus.git"
+INSTALL_DIR="$HOME/Lotus"
 
 clear
 
-echo -e "${BOLD}${GREEN}[+] Lotus Kurulumu/Güncellemesi Başlatılıyor...${RESET}"
+echo -e "${BOLD}${GREEN}[+] Starting Lotus Installation/Update...${RESET}"
 sleep 1
 
-# Lotus dizini zaten varsa güncelle, yoksa klonla
-if [ -d "$HOME/Lotus" ]; then
-    echo -e "${BOLD}${CYAN}[*] Lotus zaten yüklü, güncelleniyor...${RESET}"
-    cd $HOME/Lotus
+echo -e "${BOLD}${CYAN}[*] Updating package lists...${RESET}"
+pkg update -y
+pkg upgrade -y
+
+echo -e "${BOLD}${CYAN}[*] Installing required packages...${RESET}"
+pkg install -y git python
+
+# Clone or update Lotus
+if [ -d "$INSTALL_DIR/.git" ]; then
+    echo -e "${BOLD}${CYAN}[*] Lotus is already installed. Updating...${RESET}"
+    cd "$INSTALL_DIR" || exit
     git pull
-    cd $HOME
 else
-    echo -e "${BOLD}${CYAN}[*] Lotus dizini oluşturuluyor...${RESET}"
-    mkdir -p $HOME/Lotus
-    # Bu betik sandbox içinde çalıştığı için doğrudan kopyalama yapıyoruz.
-    # Gerçek bir senaryoda buraya git clone komutu gelmeliydi.
-    # git clone https://github.com/kullaniciadi/lotus.git $HOME/Lotus
+    echo -e "${BOLD}${CYAN}[*] Downloading Lotus from GitHub...${RESET}"
+    rm -rf "$INSTALL_DIR"
+    git clone "$REPO_URL" "$INSTALL_DIR"
 fi
 
-echo -e "${BOLD}${CYAN}[*] Sistem güncelleniyor ve yükseltiliyor...${RESET}"
-apt update && apt upgrade -y
+# Make executable
+chmod +x "$INSTALL_DIR/lotus.py"
 
-echo -e "${BOLD}${CYAN}[*] Gerekli temel paketler kuruluyor (python, git)...${RESET}"
-apt install python -y
-apt install git -y
+# Create launcher
+echo -e "${BOLD}${CYAN}[*] Creating Lotus command...${RESET}"
 
-# Lotus ana betiğini ve veri dosyasını kopyalama
-echo -e "${BOLD}${CYAN}[*] Lotus ana betiği ve veri dosyası kopyalanıyor...${RESET}"
-cp /home/ubuntu/lotus/lotus.py $HOME/Lotus/lotus.py
-cp /home/ubuntu/lotus/tools_data_v2.json $HOME/Lotus/tools_data_v2.json
+cat > "$PREFIX/bin/Lotus" << EOF
+#!/data/data/com.termux/files/usr/bin/bash
+python3 \$HOME/Lotus/lotus.py
+EOF
 
-# Çalıştırılabilir hale getirme
-echo -e "${BOLD}${CYAN}[*] Lotus betiği çalıştırılabilir yapılıyor...${RESET}"
-chmod +x $HOME/Lotus/lotus.py
+chmod +x "$PREFIX/bin/Lotus"
 
-# Menüyü başlatmak için bir alias ekleme
-echo -e "${BOLD}${CYAN}[*] 'lotus' komutu için alias ayarlanıyor...${RESET}"
-# Alias zaten varsa tekrar eklememek için kontrol et
-if ! grep -q "alias lotus=" $HOME/.bashrc; then
-    echo "alias lotus=\"python $HOME/Lotus/lotus.py\"" >> $HOME/.bashrc
-fi
-
-echo -e "\n${BOLD}${GREEN}[+] Lotus Kurulumu/Güncellemesi Başarıyla Tamamlandı!${RESET}"
-echo -e "${BOLD}${YELLOW}Menüyü başlatmak için yeni bir Termux oturumu açın veya 'source ~/.bashrc' komutunu çalıştırın, ardından 'lotus' yazın.${RESET}"
-echo -e "${BOLD}${YELLOW}Lotus'u çalıştırmak için: lotus${RESET}"
+echo
+echo -e "${BOLD}${GREEN}[+] Lotus has been installed successfully!${RESET}"
+echo -e "${BOLD}${YELLOW}Start Lotus anytime by typing:${RESET}"
+echo -e "${BOLD}${GREEN}Lotus${RESET}"
