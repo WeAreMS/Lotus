@@ -1,5 +1,5 @@
 {
-  "Analystick": [
+  "Analysis": [
     {
       "name": "rang3r",
       "repo": "https://github.com/floriankunushevci/rang3r",
@@ -21,7 +21,7 @@
       "run": "cd AstraNmap && python3 AstraNmap.py"
     }
   ],
-  "Android Saldırıları": [
+  "Android Attacks": [
     {
       "name": "pyshell",
       "repo": "https://github.com/knassar702/pyshell",
@@ -47,7 +47,7 @@
       "run": "cd HatCloud && python3 HatCloud.py"
     }
   ],
-  "Kamera Sızma": [
+  "Camera Hacking": [
     {
       "name": "Cam-Hackers",
       "repo": "https://github.com/AngelSecurityTeam/Cam-Hackers",
@@ -72,7 +72,7 @@
       "run": "cd CamHack && python3 CamHack.py"
     }
   ],
-  "Dark Web Arama": [
+  "Dark Web Search": [
     {
       "name": "darkdump",
       "repo": "https://github.com/josh0xA/darkdump",
@@ -82,7 +82,7 @@
       "run": "cd darkdump && python3 darkdump.py"
     }
   ],
-  "Bilgi Toplama": [
+  "Information Gathering": [
     {
       "name": "EvilURL",
       "repo": "https://github.com/UndeadSec/EvilURL.git",
@@ -187,7 +187,7 @@
       "run": "cd MailFinder && python3 MailFinder.py"
     }
   ],
-  "E-posta Araçları": [
+  "Email Tools": [
     {
       "name": "hack-gmail",
       "repo": "https://github.com/d4az/hack-gmail.git",
@@ -236,7 +236,7 @@
       "run": "cd Intersect-2.5 && python3 Intersect-2.5.py"
     }
   ],
-  "Şifre Saldırıları": [
+  "Password Attacks": [
     {
       "name": "hasher",
       "repo": "https://github.com/ciku370/hasher",
@@ -264,7 +264,7 @@
       "run": "cd Hash-Buster && python3 Hash-Buster.py"
     }
   ],
-  "Phishing (Oltalama)": [
+  "Phishing": [
     {
       "name": "zphisher",
       "repo": "https://github.com/htr-tech/zphisher.git",
@@ -328,7 +328,7 @@
       "run": "cd blackeye && python3 blackeye.py"
     }
   ],
-  "Router & Ağ": [
+  "Router & Network": [
     {
       "name": "routersploit",
       "repo": "https://www.github.com/threat9/routersploit",
@@ -369,7 +369,7 @@
       "run": "cd fim && python3 fim.py"
     }
   ],
-  "SQL Enjeksiyonu": [
+  "SQL Injection": [
     {
       "name": "Debinject",
       "repo": "https://github.com/UndeadSec/Debinject.git",
@@ -389,7 +389,7 @@
       "run": "cd Infect && python3 Infect.py"
     }
   ],
-  "Sosyal Medya": [
+  "Social Media": [
     {
       "name": "Facebook-BruteForce",
       "repo": "https://github.com/IAmBlackHacker/Facebook-BruteForce",
@@ -414,7 +414,7 @@
       "run": "cd UserFinder && python3 UserFinder.py"
     }
   ],
-  "Spam Araçları": [
+  "Spam Tools": [
     {
       "name": "SMS-Bomber-300-Free",
       "repo": "https://github.com/3UMOBKA/SMS-Bomber-300-Free",
@@ -450,7 +450,7 @@
       "run": "cd TBomb && python3 TBomb.py"
     }
   ],
-  "TermuxS": [
+  "Termux": [
     {
       "name": "termux-style",
       "repo": "https://github.com/adi1090x/termux-style",
@@ -472,7 +472,7 @@
       "run": "cd qiq && python3 qiq.py"
     }
   ],
-  "Web Saldırıları": [
+  "Web Attacks": [
     {
       "name": "AdminHack",
       "repo": "https://github.com/mishakorzik/AdminHack",
@@ -496,12 +496,6 @@
         "pip install -r requirements.txt"
       ],
       "run": "cd Blazy && python3 Blazy.py"
-    },
-    {
-      "name": "--depth",
-      "repo": "--depth",
-      "install": [],
-      "run": "cd --depth && python3 --depth.py"
     },
     {
       "name": "websploit",
@@ -552,7 +546,7 @@
       "run": "cd WhatWeb && python3 WhatWeb.py"
     }
   ],
-  "Wordlist Oluşturucu": [
+  "Wordlist Generator": [
     {
       "name": "wlcreator",
       "repo": "https://github.com/Keshav2136/wlcreator",
@@ -574,7 +568,7 @@
       "run": "cd SMWYG-Show-Me-What-You-Got && python3 SMWYG-Show-Me-What-You-Got.py"
     }
   ],
-  "XSS Saldırıları": [
+  "XSS Attacks": [
     {
       "name": "XSSCon",
       "repo": "https://github.com/menkrep1337/XSSCon",
@@ -596,7 +590,7 @@
       "run": "cd XSStrike && python3 XSStrike.py"
     }
   ],
-  "Sistem": [
+  "System": [
     {
       "name": "Metasploit",
       "repo": "",
