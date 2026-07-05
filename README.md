@@ -74,7 +74,7 @@ Once the installation is complete, launch Lotus by running:
 
 ```bash
 python lotus.py
-And you can run it by typing lotus as a shortcut.
+And you can run it by typing Lotus as a shortcut.
 ```
 
 **Basic Commands:**
